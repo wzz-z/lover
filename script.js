@@ -38,15 +38,20 @@ noButton.addEventListener("click", function () {
 
     // 图片变化（前 5 次变化）
     // 震惊 修改为绝对路径
-    if (clickCount === 1) mainImage.src = "./images/shocked.png";  
+    // if (clickCount === 1) mainImage.src = "./images/shocked.png";  
+    if (clickCount === 1) mainImage.src = "./images/吃惊.jpg";  
     // 思考 修改为绝对路径  
-    if (clickCount === 2) mainImage.src = "./images/think.png";  
+    // if (clickCount === 2) mainImage.src = "./images/think.png";  
+    if (clickCount === 2) mainImage.src = "./images/思考.jpg";  
     // 生气 修改为绝对路径  
-    if (clickCount === 3) mainImage.src = "./images/angry.png"; 
+    // if (clickCount === 3) mainImage.src = "./images/angry.png"; 
+    if (clickCount === 3) mainImage.src = "./images/伤心.jpg"; 
     // 哭 修改为绝对路径    
-    if (clickCount === 4) mainImage.src = "./images/crying.png";   
+    // if (clickCount === 4) mainImage.src = "./images/crying.png";   
+    if (clickCount === 3) mainImage.src = "./images/哭.jpg"; 
     // 之后一直是哭
-    if (clickCount >= 5) mainImage.src = "./images/crying.png";
+    // if (clickCount >= 5) mainImage.src = "./images/crying.png";
+    if (clickCount === 3) mainImage.src = "./images/大哭.jpg"; 
     // if (clickCount === 1) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/8e2317bb70ec0beeb30f4522cac1e915.png"; // 震惊
     // if (clickCount === 2) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/85e54dee5f519ff1a2b8aa7e370db816.png";// 思考   
     // if (clickCount === 3) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/74c1e4c813a3fc129c9bea588d00c4d7.png";   // 生气
