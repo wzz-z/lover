@@ -51,7 +51,7 @@ noButton.addEventListener("click", function () {
     if (clickCount === 4) mainImage.src = "./images/f4.png"; 
     // 之后一直是哭
     // if (clickCount >= 5) mainImage.src = "./images/crying.png";
-    if (clickCount === 5) mainImage.src = "./images/f5.png"; 
+    if (clickCount === 5) mainImage.src = "./images/f6.png"; 
     // if (clickCount === 1) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/8e2317bb70ec0beeb30f4522cac1e915.png"; // 震惊
     // if (clickCount === 2) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/85e54dee5f519ff1a2b8aa7e370db816.png";// 思考   
     // if (clickCount === 3) mainImage.src = "https://pic.rmb.bdstatic.com/bjh/3ed189b421bd/250216/74c1e4c813a3fc129c9bea588d00c4d7.png";   // 生气
